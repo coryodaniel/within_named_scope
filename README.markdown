@@ -3,7 +3,7 @@ Within Named Scope
 
 A simple gem for drying up checking if an ActiveRecord instance is within a named scope.
 
-Support for Rails 3.2+ and 4.0+
+Support for Rails and 4.2+
 
 Usage
 ---------------------

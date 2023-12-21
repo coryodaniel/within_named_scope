@@ -5,7 +5,7 @@ module WithinNamedScope
   end
 
   def in_scope?(scope)
-    !!self.class.send(scope.to_sym).exists?(self)
+    !!self.class.send(scope.to_sym).exists?(self.id)
   end
 
   module ClassMethods
